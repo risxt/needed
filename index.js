@@ -1,4 +1,6 @@
 import "dotenv/config";
+console.log("Loaded PRIVATE_KEYS:", process.env.PRIVATE_KEYS);
+import "dotenv/config";
 import { ethers } from "ethers";
 import ora from "ora";
 import inquirer from "inquirer";
