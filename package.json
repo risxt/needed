@@ -1,0 +1,18 @@
+{
+  "name": "monad-bot",
+  "version": "1.0.0",
+  "description": "Enhanced Monad Testnet Automation",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cfonts": "^3.3.0",
+    "dotenv": "^16.4.7",
+    "ethers": "^6.13.5",
+    "ora": "^8.2.0",
+    "readline-sync": "^1.4.10",
+    "axios": "^1.6.7"
+  }
+}
